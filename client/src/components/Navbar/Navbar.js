@@ -4,6 +4,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
+    <div className="wrapper">
         <div className="nav-bar">
           <div className="nav-bar-logo">
             <img src={Logo} alt=""></img>
@@ -16,6 +17,7 @@ const Navbar = () => {
             <button className="menu-btn">Log In</button>
           </div>
         </div> 
+        </div>
   )
 }
 

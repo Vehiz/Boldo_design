@@ -1,10 +1,16 @@
-
+.wrapper{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .container-1 {
   display: flex;
   position: relative;
   flex-direction: column;
   background: #0a2640;
-  width: 1400px;
+  width: 100%;
   height: 615px;
   flex-shrink: 0;
 }
@@ -111,6 +117,7 @@
   line-height: 28px;
 }
 .container-2 {
+  /* background: red; */
   display: flex;
   height: 1200px;
   justify-content: center;
@@ -123,7 +130,7 @@
   /* justify-content: space-between; */
   align-items: center;
   position: absolute;
-  top:40rem;
+  top:33rem;
   height:50%;
   width: 1200px;
   gap: 40px;

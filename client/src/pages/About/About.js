@@ -14,7 +14,7 @@ import Values from "../../components/Values/Values"
 
 const About = () => {
   return (
-    <div>
+    <div className="wrapper">
       <div className="container-1">
         <Navbar />
         <div className="main-txt-container">
