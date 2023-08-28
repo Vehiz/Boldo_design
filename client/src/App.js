@@ -1,4 +1,4 @@
-// import './App.css';
+import './App.css';
 import About from './pages/About/About'
 
 function App() {
