@@ -2,6 +2,7 @@
     background: #0a2640;
     display: flex;
     position: fixed;
+    width: 1200px;
     height: 42px;
     margin-top: 50px;
     margin-right: 100px;
