@@ -22,21 +22,21 @@ const Team = () => {
         <div className="profile-container">
           <div>
             <img src={img1} alt="img1" />
-            <div>
+            <div className="profile-text">
               <p className="name-text">Michael Scott</p>
               <p className="role-text">General Manager</p>
             </div>
           </div>
           <div>
             <img src={img2} alt="img2" />
-            <div>
+            <div className="profile-text">
               <p className="name-text">Dwight Schrute</p>
               <p className="role-text">General Manager</p>
             </div>
           </div>
           <div>
             <img src={img3} alt="img2" />
-            <div>
+            <div className="profile-text">
               <p className="name-text">Pam Beetsley</p>
               <p className="role-text">General Manager</p>
             </div>

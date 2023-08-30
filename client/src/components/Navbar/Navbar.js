@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from "../../assets/LogoShape.svg";
 import "./Navbar.css";
+import MenuIcon from '@mui/icons-material/Menu';
 
 const Navbar = () => {
   return (
@@ -16,7 +17,9 @@ const Navbar = () => {
         <div className="text">About</div>
         <button className="menu-btn">Log In</button>
       </div>
-      <div className="menu-list1"></div>
+      <div className="menu-list1">
+        <MenuIcon style={{ fontSize: '3rem' }}/>
+      </div>
     </div> 
       
   )

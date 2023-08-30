@@ -10,10 +10,10 @@
 .menu-list {
   display: flex;
   align-items: center;
-  padding-left: 8%;
+  padding-left: 10%;
   /* justify-content: space-evenly; */
   gap: 40px;
-  width:50%;
+  width:55%;
 
   @media screen and (max-width: 769px) {
     visibility: hidden;
@@ -32,7 +32,12 @@
   padding-left: 8%;
   align-items: center;
   width: 50%;
+  @media screen and (max-width: 769px) {
+   width: 90%;
+   }
 }
+
+
 
 .nav-bar-logo img {
   height: 50px;
@@ -68,4 +73,14 @@
   font-style: normal;
   font-weight: 700;
   line-height: 33.639px;
+}
+.menu-list1{
+  visibility: hidden;
+  @media screen and (max-width: 769px) {
+    visibility: visible;
+    color: #fff;
+    padding-right: 6%;
+    /* font-size: 40px;
+    font-weight: 700; */
+   }
 }
