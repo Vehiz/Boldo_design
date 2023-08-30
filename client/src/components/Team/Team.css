@@ -1,32 +1,45 @@
 .team-container {
-  width: 1400px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 1000px;
+  padding: 5% 0%;
+
 }
 
 .profile-container {
   display: flex;
   gap: 40px;
+
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
+  }
+
 }
+
+.profile-container img{
+  height:40vh;
+  @media screen and (max-width: 1025px) {
+    height: 30vh;
+    margin: 5% 0%;
+  }
+    
+  
+}
+
 .team-heading {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  margin: 0% auto;
+  width: 50%;
 }
-.text-sect {
-  /* background: green; */
-  height: 180px;
-}
+
 .text-a {
   /* background: green; */
-  width: 120px;
-  height: 32px;
   color: var(--gray, #777);
-
   /* Paragraphs/Text S */
   font-family: Open Sans;
   font-size: 20px;
@@ -34,44 +47,51 @@
   font-weight: 400;
   line-height: 32px; /* 160% */
 }
+
 .text-b {
-    height: 72px;
   color: #000;
   font-family: Manrope;
   font-size: 48px;
   font-style: normal;
   font-weight: 400;
-  line-height: 72px; /* 150% */
-}
-.text-c {
-  width: 799px;
-  height: 110px;
-  color: var(--gray, #777);
 
+  @media screen and (max-width: 425px) {
+    font-size: 28px;
+  }
+  
+}
+
+.text-c {
+  width: 100%;
+  color: var(--gray, #777);
   /* Paragraphs/Text S */
   font-family: Open Sans;
-  font-size: 20px;
+  font-size: 16px;
+  word-break: break-all;
   font-style: normal;
   font-weight: 400;
   line-height: 32px; /* 160% */
   flex-shrink: 0;
+  width:100%;
+  margin: 2% 0%;
 }
+
 .name-text{
     color: #000;
 
     /* Headings/Text L */
     font-family: Manrope;
-    font-size: 28px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
 
 }
+
 .role-text{
     color: var(--gray, #777);
-
-/* Paragraphs/Text S */
-font-family: Open Sans;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
+    /* Paragraphs/Text S */
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
 }

@@ -22,9 +22,9 @@ const Values = () => {
       </div>
       <div className="val-col-container">
         <div className="val-col">
-          <div>
+        
             <img src={Image1} alt="Image1" />
-          </div>
+         
           <div className="val-col-txt-sect">
             <div className="val-col-text1">We are commited.</div>
             <p className="val-col-text2">
@@ -34,9 +34,9 @@ const Values = () => {
           </div>
         </div>
         <div className="val-col">
-          <div>
+    
             <img src={Image2} alt="Image2" />
-          </div>
+   
           <div className="val-col-txt-sect">
             <div className="val-col-text1">We are responsible.</div>
             <p className="val-col-text2">
@@ -46,9 +46,7 @@ const Values = () => {
           </div>
         </div>
         <div className="val-col">
-          <div>
             <img src={Image3} alt="Image3" />
-          </div>
           <div className="val-col-txt-sect">
             <div className="val-col-text1">We aim for progress.</div>
             <p className="val-col-text2">

@@ -14,9 +14,10 @@ import Values from "../../components/Values/Values"
 
 const About = () => {
   return (
-    <div className="wrapper">
-      <div className="container-1">
-        <Navbar />
+   <>
+      <Navbar />
+      <div className="wrapper">
+      
         <div className="main-txt-container">
           <p className="main-text-1">About</p>
           <div className="main-text-2">
@@ -30,16 +31,16 @@ const About = () => {
             </p>
           </div>
         </div>
-      </div>
+
       <div className="container-2">
         <div className="container-2-img">
           <div className="imgA">
             <img src={Img1} alt=""></img>
             <img src={Img2} alt=""></img>
           </div>
-          <div className="imgB">
+    
             <img src={Img3} alt=""></img>
-          </div>
+      
           <div className="imgC">
             <img src={Img4} alt=""></img>
             <img src={Img5} alt=""></img>
@@ -68,6 +69,7 @@ const About = () => {
       <Values/>
       <Footer />
     </div>
+    </>
   );
 };
 

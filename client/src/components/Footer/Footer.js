@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import FooterLogo from "../../assets/footerLogo.png"
+import FooterLogo from "../../assets/footerLogo.png";
 
 const Footer = () => {
   return (
@@ -29,7 +29,7 @@ const Footer = () => {
           <p className="footer-last">All rights reserved</p>
         </div>
         <div className="footer2-second-child">
-          <div>
+          <div className="footer-child-wrapper">
             <p className="footer-header">Landings</p>
             <div className="footer-list-text">
               <p>Home</p>
@@ -37,7 +37,7 @@ const Footer = () => {
               <p>services</p>
             </div>
           </div>
-          <div>
+          <div className="footer-child-wrapper">
             <p className="footer-header">Company</p>
             <div className="footer-list-text">
               <p>Home</p>
@@ -48,7 +48,7 @@ const Footer = () => {
               <p>Services</p>
             </div>
           </div>
-          <div>
+          <div className="footer-child-wrapper">
             <p className="footer-header">Resources</p>
             <div className="footer-list-text">
               <p>Blog</p>
